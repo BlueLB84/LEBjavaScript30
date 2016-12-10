@@ -1,8 +1,9 @@
 html {
   font-size: 10px;
-  background:url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://c2.staticflickr.com/8/7164/6569004643_d2b4924e38_b.jpg) bottom center;
   background-size: cover;
 }
+
 body,html {
   margin: 0;
   padding: 0;
@@ -27,7 +28,7 @@ body,html {
   width:100px;
   text-align: center;
   color:white;
-  background:rgba(0,0,0,0.4);
+  background:rgba(3, 7, 101, 0.6);
   text-shadow:0 0 5px black;
 }
 
