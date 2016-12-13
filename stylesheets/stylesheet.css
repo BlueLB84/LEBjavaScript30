@@ -14,7 +14,15 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-li {list-style-type: none;}    
+
+li {list-style-type: none;
+    display: block;
+    width: 40px;
+    background-color: #606c71;
+    color: #e7e7e7;
+    margin-bottom: 3px;
+    padding: 2px 5px;
+}
 
 .btn {
   display: inline-block;
