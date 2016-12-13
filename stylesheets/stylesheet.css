@@ -15,7 +15,7 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.projectlinks li {list-style-type: none;
+.main-content li {list-style-type: none;
     display: block;
     width: 50px;
     background-color: #606c71;
@@ -173,8 +173,7 @@ a {
   border: 0; }
   .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
     content: normal; }
-.main-content ul, .main-content ol {
-  margin-top: 0; }
+
 .main-content blockquote {
   padding: 0 1rem;
   margin-left: 0;
