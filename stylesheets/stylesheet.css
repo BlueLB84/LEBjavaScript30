@@ -21,7 +21,7 @@ body {
 
 }
 
-ul {list-style: none;}
+.projectlinks {list-style: none;}
 
 .projectlinks li a {display: block;
     width: 120px;
@@ -35,6 +35,8 @@ ul {list-style: none;}
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
     text-decoration: none;
 }
+
+
 
 .projectlinks li a:hover {
   background-color: #6d706e;
