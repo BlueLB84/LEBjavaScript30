@@ -15,7 +15,7 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.main-content li {list-style-type: none;
+.projectlinks li {list-style-type: none;
     display: block;
     width: 120px;
     background-color: #969c98;
