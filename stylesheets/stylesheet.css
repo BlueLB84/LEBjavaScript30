@@ -9,20 +9,40 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
-a {
+.page-header a {
   color: #003f7e;
   text-decoration: none; }
-  a:hover {
+.page-header a:hover {
     text-decoration: underline; }
 
-.projectlinks li {list-style-type: none;
-    display: block;
+.projectlinks {list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {list-style: none;}
+
+.projectlinks li a {display: block;
     width: 120px;
     background-color: #969c98;
-    color: #222222;
+    color: #ededed;
+    text-align: center;
     margin-bottom: 3px;
     padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid #777a78;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    text-decoration: none;
 }
+
+.projectlinks li a:hover {
+  background-color: #6d706e;
+  color: #222222;
+  border: 2px solid #777a78;
+}
+
+
 
 .btn {
   display: inline-block;
